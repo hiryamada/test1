@@ -1,10 +1,10 @@
-name: learn-github-actions
-on: [push]
-jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+name: learn-github-actions # comment
+on: [push] # comment
+jobs: # comment
+  check-bats-version: # comment
+    runs-on: ubuntu-latest # comment
+    steps: # comment
+      - uses: actions/checkout@v4 # comment
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
